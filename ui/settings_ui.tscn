@@ -1,3 +1,8 @@
 [gd_scene format=3 uid="uid://b31u6bi3wyfpe"]
 
+[ext_resource type="PackedScene" uid="uid://bdd85qyit7ih5" path="res://assets/models/castle_town/castle_town.glb" id="1_8lf23"]
+
 [node name="CanvasLayer" type="CanvasLayer" unique_id=1575442130]
+
+[node name="castle_town" parent="." unique_id=896959001 instance=ExtResource("1_8lf23")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.33293724, 0, 1.2504554)
